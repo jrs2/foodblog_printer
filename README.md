@@ -10,8 +10,10 @@ Looks for "Print Recipe" links in food blogs and provides link.
 `python app.py runserver`
 
 ### Deploying First Time
-```zappa init
-zappa deploy dev```
+```
+zappa init
+zappa deploy dev
+```
 Additionally had to add `lambda:DeleteFunctionConcurrency` to the Group Policy below
 
 
