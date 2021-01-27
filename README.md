@@ -11,8 +11,9 @@ Looks for "Print Recipe" links in food blogs and provides link.
 
 ### Deploying First Time
 `zappa init`
-Additionally had to add `lambda:DeleteFunctionConcurrency` to the Group Policy below
 `zappa deploy dev`
+Additionally had to add `lambda:DeleteFunctionConcurrency` to the Group Policy below
+
 
 ### Deploying Again
 `zappa update dev`
